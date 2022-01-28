@@ -5,7 +5,7 @@ import fileUpload from "express-fileupload";
 import router from "./router.js";
 const PORT = 1017;
 
-const DB_URL = `mongodb+srv://user:user@cluster0.yqrxu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
+const DB_URL = `mongodb+srv://user:<password>@cluster0.yqrxu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
 
 const app = express()
 
